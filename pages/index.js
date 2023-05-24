@@ -245,7 +245,7 @@ export default function Home() {
 
                 </div>
             </div>
-            <div className="absolute w-4/5 bottom-[23rem] left-0 md:w-2/5 bg-softBlue h-1/5 md:h-2/5 rounded-r-full"></div>
+            <div className="absolute w-4/5 bottom-[23rem] md:bottom-[10rem] left-0 md:w-2/5 bg-softBlue h-1/5 md:h-2/5 rounded-r-full"></div>
           </section>
 
 

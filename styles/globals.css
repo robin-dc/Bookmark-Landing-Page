@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  *{
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    /* color:#252b46b7; */
+  }
+}
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -98,10 +112,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

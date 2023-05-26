@@ -53,15 +53,15 @@ export default function Home() {
         tab3.classList.remove('border-b-softRed');
         tab2.classList.remove('border-b-softRed');
       }
-      if(tab1Div.classList.contains('-translate-x-[80rem]')){
-        tab1Div.classList.remove('-translate-x-[80rem]');
+      if(tab1Div.classList.contains('-translate-x-[150rem]')){
+        tab1Div.classList.remove('-translate-x-[150rem]');
       }
-      if(tab2Div.classList.contains('-translate-x-[80rem]')){
-        tab2Div.classList.add('translate-x-[80rem]');
-        tab2Div.classList.remove('-translate-x-[80rem]');
+      if(tab2Div.classList.contains('-translate-x-[150rem]')){
+        tab2Div.classList.add('translate-x-[150rem]');
+        tab2Div.classList.remove('-translate-x-[150rem]');
       }
-      tab2Div.classList.add('translate-x-[80rem]');
-      tab3Div.classList.add('translate-x-[80rem]');
+      tab2Div.classList.add('translate-x-[150rem]');
+      tab3Div.classList.add('translate-x-[150rem]');
       tab1.classList.add('border-b-softRed');
 
     })
@@ -71,14 +71,14 @@ export default function Home() {
         tab1.classList.remove('border-b-softRed');
         tab3.classList.remove('border-b-softRed');
       }
-      if(tab2Div.classList.contains('translate-x-[80rem]')){
-        tab2Div.classList.remove('translate-x-[80rem]');
+      if(tab2Div.classList.contains('translate-x-[150rem]')){
+        tab2Div.classList.remove('translate-x-[150rem]');
       }
-      if(tab2Div.classList.contains('-translate-x-[80rem]')){
-        tab2Div.classList.remove('-translate-x-[80rem]');
+      if(tab2Div.classList.contains('-translate-x-[150rem]')){
+        tab2Div.classList.remove('-translate-x-[150rem]');
       }
-      tab1Div.classList.add('-translate-x-[80rem]');
-      tab3Div.classList.add('translate-x-[80rem]');
+      tab1Div.classList.add('-translate-x-[150rem]');
+      tab3Div.classList.add('translate-x-[150rem]');
       tab2.classList.add('border-b-softRed');
 
     })
@@ -88,15 +88,15 @@ export default function Home() {
         tab1.classList.remove('border-b-softRed');
         tab2.classList.remove('border-b-softRed');
       }
-      if(tab3Div.classList.contains('translate-x-[80rem]')){
-        tab3Div.classList.remove('translate-x-[80rem]');
+      if(tab3Div.classList.contains('translate-x-[150rem]')){
+        tab3Div.classList.remove('translate-x-[150rem]');
       }
-      tab1Div.classList.add('-translate-x-[80rem]');
-      if(tab2Div.classList.contains('translate-x-[80rem]')){
-        tab2Div.classList.add('-translate-x-[80rem]');
-        tab2Div.classList.remove('translate-x-[80rem]');
+      tab1Div.classList.add('-translate-x-[150rem]');
+      if(tab2Div.classList.contains('translate-x-[150rem]')){
+        tab2Div.classList.add('-translate-x-[150rem]');
+        tab2Div.classList.remove('translate-x-[150rem]');
       }
-      tab2Div.classList.add('-translate-x-[80rem]');
+      tab2Div.classList.add('-translate-x-[150rem]');
       tab3.classList.add('border-b-softRed');
 
     })
@@ -216,7 +216,7 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className='w-full flex items-center gap-1 absolute top-0 tab2-div z-10 translate-x-[80rem] transition-all ease-in-out duration-300 flex-col md:flex-row px-2 md:px-0'>
+                  <div className='w-full flex items-center gap-1 absolute top-0 tab2-div z-10 translate-x-[150rem] transition-all ease-in-out duration-300 flex-col md:flex-row px-2 md:px-0'>
                     <div className='w-5/5 md:w-3/5 md:pr-3'>
                       <Image src={tab2} className="w-[95%]" alt=""/>
                     </div>
@@ -229,7 +229,7 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className='w-full flex items-center z-10 gap-1 absolute top-0 tab3-div translate-x-[80rem] transition-all ease-in-out duration-300 flex-col md:flex-row px-2 md:px-0'>
+                  <div className='w-full flex items-center z-10 gap-1 absolute top-0 tab3-div translate-x-[150rem] transition-all ease-in-out duration-300 flex-col md:flex-row px-2 md:px-0'>
                     <div className='w-5/5 md:w-3/5 md:pr-3'>
                       <Image src={tab3} className="w-[95%]" alt=""/>
                     </div>
@@ -257,7 +257,7 @@ export default function Home() {
           got a favourite you’d like us to prioritize.</p>
             </div>
 
-            <div className='flex-col px-2 md:px-0 flex md:flex-row gap-1 md:gap-2 py-5'>
+            <div className='flex-col px-2 md:px-0 flex md:flex-row gap-1 md:gap-2 py-5 justify-center'>
 
               <div className="shadow-lg p-2 flex flex-col gap-2 justify-center items-center h-fit">
                 <Image src={chrome} className="w-2/5" alt=""/>

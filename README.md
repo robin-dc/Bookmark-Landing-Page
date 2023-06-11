@@ -3,7 +3,7 @@
 Used my knowledge and expertise to craft an engaging challenge from frontendmentor.io
 
 <br>
-<a href="https://bookmark-lpage.vercel.app/" target="_blank"><img src='https://github.com/robin-dc/Bookmark-Landing-Page/blob/main/bookmark_preview.png'></a>
+<a href="https://bookmark-lpage.vercel.app/" target="_blank"><img src='https://github.com/robin-dc/Bookmark-Landing-Page/blob/main/public/images/bookmark_preview.jpg'></a>
 
 <br>
 
